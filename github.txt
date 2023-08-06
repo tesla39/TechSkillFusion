@@ -1,0 +1,30 @@
+1. git init
+
+2. git add . or git add filename
+
+3. git commit -m “message”
+
+4. git status
+
+5.git remote -v  =>shows remote url
+
+6.ls -al ~/.ssh   =>shows all ssh key
+
+7.git remote add origin [url]
+
+8.a.git push origin [branch name]   =>[branch name] is master by default
+    b.git push origin [branch name]=>if git is pushed upload changes made 
+     c.git checkout <branch-name>=>switch between branch
+
+
+9.git clone url
+
+11.git branch [branch name]  =>to create a branch
+
+12.git branch -D [branch name]   =>to delete a branch
+
+13.eval "$(ssh-agent -s)"  =>ensures ssh key is running
+
+
+git pull origin <branch-name>
+
