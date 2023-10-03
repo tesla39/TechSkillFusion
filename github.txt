@@ -25,6 +25,9 @@
 
 13.eval "$(ssh-agent -s)"  =>ensures ssh key is running
 
+14.git restore <filename> =>restores deleted filename
 
-git pull origin <branch-name>
+15.git reset --hard =>rollback to previous state when last commit was done
+
+16.git pull origin <branch-name>
 
