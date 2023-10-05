@@ -29,5 +29,9 @@
 
 15.git reset --hard =>rollback to previous state when last commit was done
 
-16.git pull origin <branch-name>
+16.git remote remove origin => to remove previous origin url
+
+17.git remote set url origin <url> => to overwrite existing origin url
+
+.git pull origin <branch-name>
 
