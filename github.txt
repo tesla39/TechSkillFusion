@@ -35,3 +35,21 @@
 
 .git pull origin <branch-name>
 
+18.git log =>to pull up the branch’s history.
+
+19.git reset =>to change the repository to the commit.
+
+20.git revert =>create a new commit with the previous edits rather than delete commits from the history.
+
+21.git merge --squash =>command that can merge multiple commits of a branch. 
+
+22.git commit --fixup => marks the commit as a fix of the previous commit. 
+
+23.git rebase -i --autosquash => is a rebase type of squash for merging multiple commits.
+
+24.git bisect =>identify the first commit to introduce a bug by using automatic binary search.
+
+25.git blame =>identifies the author of a commit
+
+26.git grep=> searches for any string or regular expression in any of the files in the staging area.
+
